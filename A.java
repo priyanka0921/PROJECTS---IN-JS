@@ -1,3 +1,4 @@
+package Git;
 class A{
     //declare here finalize () for destroying object
     public void finalize()
@@ -23,8 +24,8 @@ class A{
         A a4= new A();
         a4=new A();
         System.out.println(a4);
-
-        System.gc();
+ System.out.println("its al about garbage collection");
+        System.gc();// its all about the garbage collctor call
     }
 
 }
